@@ -1,0 +1,66 @@
+body {
+  color: black;
+  font-family: "roboto" "sans";
+}
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+}
+.header-mail:hover{
+    color:#434455; ;
+}
+.header-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+.header-tel:hover{
+    color:#434455; ;
+}
+
+
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+    
+}
+.headlines {
+ font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}

@@ -5,32 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body> 
-    <header>
-      <nav>
-        <a href="">WEBSTUDIO</a>
+    <style>
+      h2 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
 
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        letter-spacing: 0.02em;
+
+        color: #2e2f42;
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-navigation">
+        <a href="" class="header-logo">WEBSTUDIO</a>
+
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="/index.html">Studio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="/portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <li>
+          <a class="header-mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="header-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
       </ul>
     </header>
     <section>
       <ul>
-        <li><button type="button">All</button></li>
-        <li><button type="button">Web Site</button></li>
-        <li><button type="button">App</button></li>
-        <li><button type="button">Design</button></li>
-        <li><button type="button">Marketing</button></li>
+        <li><button type="button" class="button">All</button></li>
+        <li><button type="button" class="button">Web Site</button></li>
+        <li><button type="button" class="button">App</button></li>
+        <li><button type="button" class="button">Design</button></li>
+        <li><button type="button" class="button">Marketing</button></li>
       </ul>
     </section>
+    <h1 hidden>Examples of webstudio work</h1>
     <ul>
       <li>
         <img
@@ -39,7 +74,7 @@
           width="360"
         />
 
-        <h2>Banking App Interface Concept</h2>
+        <h2 class="headlines">Banking App Interface Concept</h2>
         <p>App</p>
       </li>
       <li>
