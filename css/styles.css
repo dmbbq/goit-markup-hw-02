@@ -1,7 +1,22 @@
-body {
-  color: black;
-  font-family: "roboto" "sans";
+
+:root{
+  --primary-text-color: #8f95a5;
+  
 }
+body {
+  color: #2E2F42;
+  font-family: "Roboto" "sans-serif";
+  
+  
+}
+ h1,h2,h3,h4,h5,h6{
+  font-family: roboto,sans;
+}
+h2{
+  
+}
+
+ul{list-style: none;}
 
 .header {
 }
@@ -55,12 +70,54 @@ body {
     color: #4D5AE5;
     cursor: pointer;
     
+    
 }
-.headlines {
- font-family: 'Roboto';
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+.button:hover{
+  background-color: #404BBF ;
+}
+.list {
+}
+.list-element {
+}
+.list-headlines {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+
+}
+
+
+
+.headlines-section {
+  
+ background-color:#2E2F42;
+}
+
+.first-headlines {
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
 letter-spacing: 0.02em;
-color: #2E2F42;
+
+color: #FFFFFF;
+
+}
+
+.btn {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.18;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+background: #4D5AE5;
+color: #FFFFFF;
+cursor: pointer;
+  
+}
+.footer{
+  background-color: #2E2F42;
 }
