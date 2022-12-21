@@ -1,7 +1,7 @@
 
 :root{
   --primary-text-color:  #2E2F42;
-  --secondary-text-color:  #434455;
+  --secondary-text-color:   #434455;
   --dark-text-color: #8f95a5;
   --primary-button-color:#4D5AE5;
 
@@ -59,6 +59,21 @@ ul{list-style: none;}
 }
 .header-tel:hover{
     color:#434455; ;
+}
+.paragraphes{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
 }
 
 
@@ -125,4 +140,5 @@ cursor: pointer;
 }
 .footer{
   background-color: #2E2F42;
+  color: #E7E9FC;
 }
