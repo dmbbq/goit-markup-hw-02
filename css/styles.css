@@ -1,7 +1,12 @@
 
 :root{
-  --primary-text-color: #8f95a5;
-  
+  --primary-text-color:  #2E2F42;
+  --secondary-text-color:  #434455;
+  --dark-text-color: #8f95a5;
+  --primary-button-color:#4D5AE5;
+
+
+  --primary-font-family:"roboto"
 }
 body {
   color: #2E2F42;
